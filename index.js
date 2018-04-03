@@ -1,5 +1,6 @@
 'use strict';
-const config = require("../package.json");
+const path = require("path");
+const config = require(path.resolve("./package.json"));
 const mysql = require("mysql");
 const url = config.db.url+"/"+config.db.dbname;
 const option = {
