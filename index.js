@@ -5,6 +5,7 @@ const mysql = require("mysql");
 const url = config.db.url+"/"+config.db.dbname;
 const option = {
     host:config.db.url,
+    port:config.db.port || 3306,
     user:config.db.user,
     password:config.db.password,
     database:config.db.database

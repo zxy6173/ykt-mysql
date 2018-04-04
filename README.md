@@ -10,6 +10,7 @@
         ...
         "db": {
             "url": "localhost",
+            "port": "3306",
             "user": "root",
             "password": "ykt",
             "database": "demo"
